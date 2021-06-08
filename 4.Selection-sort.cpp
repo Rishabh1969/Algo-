@@ -4,8 +4,8 @@ using namespace std;
 //selection sort
 
 void selection_sort(int a[],int n){
-  for(int i=0; i<n-1;i++){
-    
+  for(int i=0; i<n-1;i++){ // n-1, bcoz when you have only 1 element left, you don't have to do anything
+    //find the smallest element idx in the unsorted part
     
     int min_index=i;
     for(int j=i; j<=n-1;j++){
